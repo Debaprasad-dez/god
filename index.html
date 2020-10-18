@@ -32,6 +32,9 @@
       border-left: solid 5px cyan;
       border-right: solid 5px cyan;
     }
+    #footerlogo{
+        width: 100%;
+    }
     #viewcar img{
       min-height: 100%;
       object-fit: cover;
@@ -45,13 +48,16 @@
         #infi{
           display: none;
         }
+        #footerlogo{
+        width: 60%;
+    }
       }
 </style>
 <body>
   <!--Navbar -->
-<nav class="mb-3" style="border-bottom: solid 5px rgb(1, 183, 255);">
+  <nav class="mb-3 sticky-top" style="border-bottom: solid 5px rgb(63, 201, 255);">
   
-  <nav class="mb-0 navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: none;border-bottom: solid 5px rgb(1, 132, 255);">
+    <nav class="mb-0 navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: none;border-bottom: solid 5px rgb(2, 118, 226);">
     <div class="container">
     <a class="navbar-brand" href="#">Totell Express</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
@@ -336,11 +342,11 @@
   </div>
   </div>
 
-<footer class="bg-dark">
+  <footer class="bg-dark">
     <div class="container pt-5 pb-5">
         <div class="row pt-5 pb-5">
             <div class="col-md-2">
-              <img class="w-100" src="./totell-e1559974619203.png" alt="">
+              <img class="" id="footerlogo" src="./totell-e1559974619203.png" alt="">
               <p class="text-light mt-5">©Copyright 2020, All Rights Reserved.</p>
             </div>
             <div class="col-md-1"></div>
