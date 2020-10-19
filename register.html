@@ -113,7 +113,7 @@
 <div class="container mt-4 mb-4">
   <div class="row mb-5">
     <div class="col-md-9">
-        <h5>Login</h5>
+        <h5>Register</h5>
         <h1 style="font-weight: 800;">
           Totell Express
         </h1>
@@ -121,20 +121,23 @@
         
     </div>
   </div>
-  <form class="col-md-5 mx-0 px-0 my-5" style="height: 40vh;">
+  <form class="col-md-5 mx-0 px-0 my-5" style="height: 50vh;">
     <input class="col form-control form-control-sm mr-3 p-3 my-3" type="text" placeholder="username"
     aria-label="Search">
-    <p class="text-danger">username doesn't exist</p>
-    <input class="col form-control form-control-sm mr-3 p-3 my-3"  type="password" placeholder="password"
+    <input class="col form-control form-control-sm mr-3 p-3 my-3"  type="email" placeholder="email"
     aria-label="Search">
-    <p class="text-danger">incorrect username or password</p>
+    <p class="p-0 m-0 text-danger">invalid email</p>
+    <input class="col form-control form-control-sm mr-3 p-3 my-3"  type="password" placeholder="set password"
+    aria-label="Search">
+    <input class="col form-control form-control-sm mr-3 p-3 my-3"  type="password" placeholder="confirm password"
+    aria-label="Search">
+    <p class="p-0 m-0 text-danger">password not matching</p>
     <button class="btn bg-dark text-white mx-0 rounded-pill py-2" style="box-shadow: none !important;" type="submit">
-        login
+        register
     </button>
      
   </form>
-  <p>forgot password? <a href="">reset here</a></p>
-  <p>Don't have account? <a href="">create one</a></p>
+  <p>already have an account ! <a href="">Login</a></p>
 </div>
 
 <footer class="bg-dark">
