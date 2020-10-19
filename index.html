@@ -32,6 +32,9 @@
       border-left: solid 5px cyan;
       border-right: solid 5px cyan;
     }
+    .navbar-toggler-icon{
+      background-image: url(./buttonx.svg) !important;
+    }
     #footerlogo{
         width: 100%;
     }
@@ -39,8 +42,9 @@
       min-height: 100%;
       object-fit: cover;
     }
-    #infi{
-      font-size: 7vh;
+    
+    #toplogo{
+      height: 60px;
     }
     @media screen and (max-width: 992px) {
       
@@ -57,7 +61,8 @@
   <!--Navbar -->
   <nav class="mb-3 sticky-top navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: none;border-bottom: solid 10px rgb(156, 36, 255);">
     <div class="container">
-    <a class="navbar-brand" href="#">Totell Express</a>
+      <img id="toplogo" class="" src="./totell-e1559974619203.png" alt="">
+    <a class="navbar-brand mb-n3 pb-0 pr-0 mr-0" href="#" >Totell Express</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
       aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -137,15 +142,13 @@
 <!--/.Navbar -->
 
 <div class="container">
-  <div class="row pb-5 mb-0 mx-1">
-      <div class="col-md-7">
-          <p id="infi" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, placeat</p>
+  <div class="row pb-2 mb-0 mx-1">
+      <div class="col-md-12">
+          <h4 id="infi" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, placeat</h4>
       </div>
     
 
-      <div class="col-md-5 text-center">
-          <img class="w-50" src="./totell-e1559974619203.png" alt="">
-      </div>
+      
   </div>
 </div>
 
